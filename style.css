@@ -1,0 +1,172 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: "Trebuchet MS"
+}
+
+header {
+	width: 100%;
+	height: 80px;
+	background-color: rgba(255, 127, 80, 0.85);
+	position:fixed;
+	z-index:20;
+}
+
+.left-header {
+	float: left;
+	padding: 20px 30px;
+	font-size: 30px;
+	margin: 0px;
+	font-family: "Arial Black", Arial, sans-serif;
+	font-weight: bolder;
+	color:white;
+
+}
+
+.right-header {
+	float: right;
+	padding-right: 5px;
+}
+
+.right-header ul {
+	list-style: none;
+}
+
+.right-header li {
+	float:right;
+	padding:20px 20px;
+	border-radius: 30px;
+}
+
+.right-header a {
+	color:white;
+}
+
+.right-header li:link {
+	background-color: rgba(255, 127, 80, 0.9);
+	color:white;
+}
+.right-header li:visited {
+	color:white;
+}
+.right-header li:hover {
+	background-color: #ff6933;
+}
+.right-header li:active {
+	background-color: white; 
+	color:#ff6933;
+}
+
+.section-one {
+	clear:both;
+	background-color: #ffdacc;
+	margin:0;
+	padding:100px 0;
+	margin:100 ;
+	position:center;
+	position:relative;
+	z-index:10;
+
+}
+
+
+/* Main Section */
+
+.main-section {
+  padding: 100px 80px;
+}
+
+.section-heading h1 {
+  font-size: 12vw;
+
+}
+
+.section-heading h2 {
+  font-size: 6vw;
+
+}
+
+.contents {
+  height: 100%;
+  width: 100%;
+  background-color: #DCDCDC;
+}
+
+.contents-item {
+	margin: 0 50px;
+	height: 100%;
+	padding: 5% 0 5%;
+
+}
+.contents-item p {
+  font-size: 4vw;
+  text-align:center;
+  margin: 1vw 0 5vw;
+  color: black;
+  font-weight: bolder;
+  
+}
+
+.contents-item img {
+	width: 80%;
+	margin: 0 10%;
+}
+
+
+/*ordering*/
+.ordering {
+	background-color:#87CEFA;
+	width: 100%;
+	padding: 40px 20px;
+	text-align: center;
+	
+}
+.ordering p {
+	font-weight: bolder;
+	text-align: center;
+	padding:0 0;
+	font-size:3vw;
+}
+.ordering button {
+	background-color: red; 
+	padding: 15px 40px;
+	display:inline-block;
+	text-align: center;
+	border-radius: 4px;
+	cursor: pointer;
+	color: white;
+	font-size:2vw;
+}
+.ordering button:hover {
+	background-color: #fdf5e6;
+	color:black;
+}
+.ordering button:active {
+	background-color: navy;
+	color:white;
+}
+
+
+/*contact form*/
+.contact-form {
+	background-color: #f0ffff;
+	width:100%;
+	text-align: center;
+	padding:50px 0;
+}
+form input {
+	width:30%;
+}
+form textarea {
+	width:30%;
+}
+
+input.contact-submit {
+	padding:15px 30px;
+	background-color: #d3d3d3;
+	border:1px solid #778899;
+}
+input.contact-submit:active {
+	background-color: white;
+	color:black;
+}
